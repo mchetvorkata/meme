@@ -1,0 +1,10 @@
+[01:38:46] [Client thread/INFO]: Setting user: Player692
+[01:38:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:39:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:The Outcaster's Land
+[01:39:05] [Client thread/ERROR]: Couldn't initialize twitch stream
+[01:39:05] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[01:39:06] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[01:39:06] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:39:07] [Thread-9/INFO]: OpenAL initialized.
+[01:39:07] [Sound Library Loader/INFO]: Sound engine started
+[01:39:24] [Client thread/INFO]: Created: 16x16 textures-atlas

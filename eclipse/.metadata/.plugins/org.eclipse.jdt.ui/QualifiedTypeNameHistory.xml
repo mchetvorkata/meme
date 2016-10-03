@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.Reference"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.proxy.CommonProxy"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.blocks.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.init.TOCBlock2"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.init.TOCBlock3"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.init.TOCItems"/>
+<fullyQualifiedTypeName name="mchetvorkata.theoutcastsland.TheOutcastsLand"/>
+</qualifiedTypeNameHistroy>
