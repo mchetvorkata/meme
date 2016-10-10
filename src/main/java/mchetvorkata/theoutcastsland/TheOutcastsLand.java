@@ -9,6 +9,7 @@ import mchetvorkata.theoutcastsland.init.TOCItems;
 import mchetvorkata.theoutcastsland.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -20,14 +21,14 @@ public class TheOutcastsLand {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
 
-	public static Object instance;
+	@Instance
+	public static TheOutcastsLand instance;
 	
 	public static final TOLTab tabTOL = new TOLTab("tabTOL");
 	
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		ModEntities.registerEntities();
 		
 	}
 	@EventHandler
@@ -48,5 +49,6 @@ public class TheOutcastsLand {
 		TOCBlock3.register();
 		TOCItems.init();
 		TOCItems.register();
+		ModEntities.registerEntities();
 	}
 }
